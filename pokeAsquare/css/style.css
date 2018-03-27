@@ -1,19 +1,21 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(252,252,252)
 }
 .squares div {
-  width:  5vh;
-  height: 5vh;
+  width:  1vh;
+  height: 1vh;
   margin-right: 1%;
   display: inline-block;
   background-color: blue;
+  cursor: pointer;
 }
 
 header {
   width: 100%;
   display: block;
   height: 100px;
-  background-color: pink;
+  background-color: #FF00FF;
   margin-bottom: 1%;
   padding-bottom: 1%;
   padding-left: 1.5%;
